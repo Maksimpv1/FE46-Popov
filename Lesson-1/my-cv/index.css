@@ -1,0 +1,27 @@
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(241, 241, 241);
+}
+.wrapper{
+    display: flex;
+}
+.left-item{
+    display: inline-block;
+    width: 90%;
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 1px solid black;
+
+}
+.right-item{
+    display: inline-block;
+    width: 200%;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
