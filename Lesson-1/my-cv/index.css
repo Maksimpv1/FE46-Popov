@@ -79,9 +79,18 @@ section{
 }
 
 .footer{
+    margin-top: 100px;
     background-color: rgb(241, 241, 241);
     text-align: center;
     padding: 0.5em;
     opacity: 0.6;
+}
+
+
+.footer_img-social__size{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
