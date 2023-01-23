@@ -25,3 +25,44 @@
     margin-right: 10px;
     
 }
+.wrapper-skills{
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.first-skill{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+}
+
+.second-skill{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+
+}
+
+.thirt-skill{
+    display: inline-block;
+        float: right;
+    width: 25%;
+    text-align: center;
+
+}
+.fourth-skill{
+    display: inline-block;
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.wrappper-skills__img-size{
+    width: 200px;
+    height: 200px;
+}
