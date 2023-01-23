@@ -1,3 +1,14 @@
+section{
+    background-image:url(./Камни.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  background-attachment: fixed;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .container{
     margin-left: 10%;
     margin-right: 10%;
@@ -50,7 +61,7 @@
 
 .thirt-skill{
     display: inline-block;
-        float: right;
+    /* float: right; */
     width: 25%;
     text-align: center;
 
@@ -66,3 +77,11 @@
     width: 200px;
     height: 200px;
 }
+
+.footer{
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 0.5em;
+    opacity: 0.6;
+}
+
