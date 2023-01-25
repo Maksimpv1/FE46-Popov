@@ -11,7 +11,6 @@
 
 
 
-
 section{
     background-color: #FFFFFF;
 }
@@ -28,30 +27,32 @@ h2{
     font-weight: normal;
     font-family: "Raleway", sans-serif;
 }
-hr{
+/*hr{
     margin-top: 0px;
     height: 1px;
     color: #EE8989;
     border: none;
-    background-color: #EE8989; /* Цвет линии для браузера Firefox и Opera */
+    background-color: #EE8989; /* Цвет линии для браузера Firefox и Opera 
     height: 2px;
     width: 170px;
 }
-
-.wrapper-h2__style{
+*/
+.wrapper-awesome__style{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1170px;
     height: 150px;
 }
-.wrapper-first-h5_div{
+.wrapper-first-header-text_div{
     margin-top: 40px;
     display: flex;
+    align-items: center;   
+    justify-content: center; 
     width: 1170px;
     height: 21px;
 }
-.wrapper-first-h5__style{
+.wrapper-first-header-text__style{
     margin-left: auto;
     margin-right: auto;
     color: #C2C3C5;
@@ -60,22 +61,12 @@ hr{
     font-family: "Raleway", sans-serif;
 }
 
-.card{
+.cards{
     display: flex;
     margin-bottom: 58px;
     margin-top: 110px;
 }
-.first-card{
-
-}
-.second-card{
-
-}
-.third-card{
-
-}
-
-.first-card_img{
+.all-card_icon__style{
     display: flex;/* Это сочитание 3ёх строк ставит элемент по центру -_-   1*/
     align-items: center;      /*2*/
     justify-content: center;   /*3*/
@@ -86,22 +77,22 @@ hr{
     border: 1px solid #EE8989;
     border-radius: 100%;
 }
-.second-card_img{
-    display: flex;  /* Это сочитание 3ёх строк ставит элемент по центру -_-   1*/
-    align-items: center;    /*2*/
-    justify-content: center;  /*3*/
+/*.second-card_icon{
+    display: flex;  /* Это сочитание 3ёх строк ставит элемент по центру -_-   1
+    align-items: center;    /*2
+    justify-content: center;  /*3
     margin-left: auto;
     margin-right: auto;
     width: 92px;
     height: 92px;
     border: 1px solid #EE8989;
     border-radius: 100%;
-
-}
-.third-card_img{
-    display: flex;  /* Это сочитание 3ёх строк ставит элемент по центру -_-   1*/
-    align-items: center;   /*2*/
-    justify-content: center;  /*3*/
+    
+}*/
+/*.third-card_icon{
+    display: flex;  /* Это сочитание 3ёх строк ставит элемент по центру -_-   1
+    align-items: center;   /*2
+    justify-content: center;  /*3
     margin-left: auto;
     margin-right: auto;
     width: 92px;
@@ -109,7 +100,8 @@ hr{
     border: 1px solid #EE8989;
     border-radius: 100%;
 }
-.first-card_head{
+*/
+.all-card_head__style{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,6 +113,7 @@ hr{
     font-family: "One sans", sans-serif;
 
 }
+/*
 .second-card_head{
     display: flex;
     align-items: center;
@@ -145,7 +138,8 @@ hr{
     font-family: "One sans", sans-serif;
 
 }
-.first-card_text{
+*/
+.all-card_text{
     width: 370px;
     height: 105px;
     text-align: center;
@@ -153,6 +147,7 @@ hr{
     padding-right: 10px;
     font-size: 18px;      
 }
+/*
 .second-card_text{
     width: 370px;
     height: 105px;
@@ -172,9 +167,19 @@ hr{
     
 
 }
+*/
 h5{
     font-weight: normal;
     margin-left: 30px;
     margin-right: 30px;
     font-family: "Raleway", sans-serif;
+}
+
+.wrapper-awesome_line{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #EE8989;
+    width: 170px;
+    margin-top: 0px;
 }
