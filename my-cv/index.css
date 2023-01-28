@@ -1,0 +1,96 @@
+section{
+    background-image:url(./Камни.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  background-attachment: fixed;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(241, 241, 241);
+}
+.wrapper{
+    display: flex;
+}
+.left-item{
+    display: inline-block;
+    width: 90%;
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 1px solid black;
+
+}
+.right-item{
+    display: inline-block;
+    width: 200%;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.wrapper-skills{
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.first-skill{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+}
+
+.second-skill{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+
+}
+
+.thirt-skill{
+    display: inline-block;
+    /* float: right; */
+    width: 25%;
+    text-align: center;
+
+}
+.fourth-skill{
+    display: inline-block;
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.wrappper-skills__img-size{
+    width: 200px;
+    height: 200px;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 0.5em;
+    opacity: 0.6;
+}
+
+
+.footer_img-social__size{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

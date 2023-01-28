@@ -78,8 +78,8 @@ select {
 
 
 .tabs__container{
-    width: 1170px;
-    height: 540px;
+    max-width: 1170px;
+    max-height: 540px;
     margin:100px auto auto auto;
 }
 .tabs__list{
@@ -180,6 +180,9 @@ select {
   display: block;
 } 
 
+.tab__active{
+  display: block;
+}
 
 .tab__content:before{
   content: "";
