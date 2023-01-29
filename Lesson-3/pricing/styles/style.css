@@ -1,0 +1,221 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+@font-face{
+
+  font-family: 'Raleway';
+  
+  src: url('../fonts/Raleway-VariableFont_wght.ttf');
+  font-weight: normal;
+  
+  font-style: normal;
+  
+}
+
+  @font-face{
+
+    font-family: 'Open Sans';
+    
+    src: url('../fonts/Open\ Sns/OpenSans-VariableFont_wdth,wght.ttf');
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+.container-pricing{
+    background-color: #F5F5F5;
+    max-width: 100%;
+}
+
+.wrapper-pricing{
+    max-width: 1170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing-header__title{
+    display: flex;
+    max-width: 1170px;
+}
+.pricing-header__title_style{
+    margin: 57px auto 57px auto;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+.wrapper-pricing__line{
+    background-color: #EC7979;
+    width: 170px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing-header__discript{
+    display: flex;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px ;
+    margin-bottom: 60px;
+}
+.pricing-header__text{
+    color: #86878B;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Raleway' , sans-serif;
+    line-height: 21px;
+}
+.pricing-cards{
+    display: flex;
+    max-width: 1170px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing-card{
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.pricing-card__name{
+    background-color: #333333;
+    border: 1px solid #F5F5F5;
+    width: 370px;
+    height: 60px;
+    display: flex;
+    align-items: center
+    
+}
+.pricing-card__text{
+    color: #FFFFFF;
+    font-family: 'Open sans' ,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing-card__order{
+    background-color: #333333;
+    border: 1px solid #F5F5F5;
+    width: 370px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.pricing-card__order-text{
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+}
+.pricing-card__discription{
+    background-color: #333333;
+    border: 1px solid #F5F5F5;
+    width: 370px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.pricing-card__discription-text{
+    font-family: 'Raleway' ,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF80;
+}
+.pricing-card__option{
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    width: 370px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.pricing-card__option-text{
+    font-family: 'Raleway' ,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    color: #86878B;
+}
+.style_card-one:hover{
+    position: relative;
+    scale: 1.05;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.25);
+}
+.style_card-two:hover{
+    position: relative;
+    scale: 1.05;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.25);
+}
+.style_card-three:hover{
+    position: relative;
+    scale: 1.05;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.25);
+}
+  
