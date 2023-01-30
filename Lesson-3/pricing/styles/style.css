@@ -206,19 +206,16 @@ select {
 .style_card-one:hover{
     transform: translateY(-2.1rem);
     position: relative;
-    scale: 1.05;
     box-shadow: 0 14px 30px rgba(0,0,0,0.25);
 }
 .style_card-two:hover{
     transform: translateY(-2.1rem);
     position: relative;
-    scale: 1.05;
     box-shadow: 0 14px 30px rgba(0,0,0,0.25);
 }
 .style_card-three:hover{
     transform: translateY(-2.1rem);
     position: relative;
-    scale: 1.05;
     box-shadow: 0 14px 30px rgba(0,0,0,0.25);
 }
   
