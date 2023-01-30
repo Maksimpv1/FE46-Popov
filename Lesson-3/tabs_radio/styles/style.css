@@ -77,6 +77,7 @@ select {
 
 .nav__list-loc{
   display: none;
+  
 }
 
 .tabs__container{
@@ -103,18 +104,18 @@ select {
 }
 .tabs__wrapper{
     display: flex;
-    width: 1170px;
+    max-width: 1170px;
     height: 500px;
 }
 .tab1__left-part{
-    width: 570px;
+    max-width: 570px;
     height: 500px;
     margin-left: 100px;
     margin-right: 30px;
 }
 .tab1__right-part{
     height: 500px;
-    width: 470px;
+    max-width: 470px;
 }
 .tab1__tittle > h3{
     font-family: "One sans", sans-serif;
@@ -168,11 +169,15 @@ select {
 
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  line-height: 19.07px;
+  line-height: 18px;
   font-weight: 400;
   color: #333333;
   text-decoration: none;
-  padding: 10px 82px 10px 82px;
+  border: 1px #C6CBCD solid;
+  border-bottom: 3px #FFFFFF solid;
+  padding: 7px 82px 7px 82px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
 
 }
