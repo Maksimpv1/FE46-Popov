@@ -180,9 +180,9 @@ select {
   display: block;
 } 
 
-/* .tab__active{
+.tab__active{
   display: block;
-} */
+}
 
 .tab__content:before{
   content: "";

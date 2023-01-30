@@ -14,9 +14,9 @@
                 <div class="tabs__list">
                         <div class="list_header-location">
                             <ul class="nav">
-                                <li class="nav__list-location"><a class="nav__item" href="#tab1">TAB 1</a></li>
-                                <li class="nav__list-location"><a class="nav__item" href="#tab2">TAB 2</a></li>                        
-                                <li class="nav__list-location"><a class="nav__item" href="#tab3">TAB 3</a></li>
+                                <li class="nav__list-location"><a class="nav__item" href="#tab1" onclick="hidAS1()">TAB 1</a></li>
+                                <li class="nav__list-location"><a class="nav__item" href="#tab2" onclick="hidAS2()">TAB 2</a></li>                        
+                                <li class="nav__list-location"><a class="nav__item" href="#tab3" onclick="hidAS3()">TAB 3</a></li>
                             </ul>
                         </div>
                     
@@ -79,4 +79,21 @@
     
     
 </body>
+<script>
+    function hidAS1(){
+        document.getElementById("tab1").style.display="block";
+        document.getElementById("tab2").style.display="none";
+        document.getElementById("tab3").style.display="none";
+    }
+    function hidAS2(){
+        document.getElementById("tab1").style.display="none";
+        document.getElementById("tab2").style.display="block";
+        document.getElementById("tab3").style.display="none";
+    }
+    function hidAS3(){
+        document.getElementById("tab1").style.display="none";
+        document.getElementById("tab2").style.display="none";
+        document.getElementById("tab3").style.display="block";
+    }
+</script>
 </html>
