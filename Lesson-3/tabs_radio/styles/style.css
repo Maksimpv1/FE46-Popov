@@ -93,6 +93,8 @@ select {
     padding-top: 13px;
     width: 100%;
     height: 40px;
+    padding-bottom: 20px;
+    display: flex;
 }
 
 .nav__list-location{
@@ -182,11 +184,9 @@ select {
   display: block;
 } 
 
-.tab__active{
-  display: block;
-}
 
-.tab__content:before{
+
+ /*.tab__content:before{
   content: "";
 	height: 40px;
 	width: 200px;
@@ -201,6 +201,7 @@ select {
   border-right:1px #C6CBCD solid;
   border-bottom:1px #FFFFFF solid;
 }
+/*
 .tab__content:nth-child(2):before{
   margin-left: 201px; 
   border-radius: 5px 5px 0 0;
@@ -216,5 +217,5 @@ select {
   border-left: 1px #C6CBCD solid;
   border-right: 1px #C6CBCD solid;
   border-bottom:1px #FFFFFF solid;
-}
+} */
 
