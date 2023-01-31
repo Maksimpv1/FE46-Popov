@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./allstyles/style-banner.css">
 </head>
 <body>
-    <section class="sec-header">
-        <header class="navbar">
+    <section class="sec-header"><!-- Не используй в названии класса упоминание о теге -->
+        <header class="navbar"><!-- Данный навбар относится непосредственно к хедеру-->
             <div class="container-header">
                 <div class="wrapper-header">
                     <div class="left-header">
@@ -33,7 +33,7 @@
         </header>
     </section>
     <section class="sec-banner">
-        <div class="zatemnenie">
+        <div class="zatemnenie"><!-- Ne ispolzui translit -->
         <div class="container-banner">
             <div class="wrapper-banner">
                 <div class="left-banner">
@@ -50,7 +50,7 @@
                         </h5>
                     </div>  
                     <div class="banner__btn">
-                        <button class="banner__btn_style"><span>Download</span></button>
+                        <button class="banner__btn_style"><span>Download</span></button><!-- Внутри кнопки можно прописывать простой текст без дополнительных тегов -->
                     </div>                
 
                 </div>
@@ -58,10 +58,10 @@
                         <div class="form_name">
                             <h4 class="form__name_style">Try Your <span class="form__text_pink">FREE</span> Trial Today</h4>
                         </div>
-                        <div class="form__inpt-lines">
+                        <div class="form__inpt-lines"><!-- Используй специальный тег form -->
                             <div class="form__inpt-line">
                                 <input class="form__inpt-line_style" type="text" value="Name">
-                                <div class="form__line"></div>
+                                <div class="form__line"></div><!-- У input есть дополнительный тег <label> и вообще эта линия - это нижняя граница элемента input -->
                             </div>
                             <div class="form__inpt-line">
                                 <input class="form__inpt-line_style" type="text" value="Email">
@@ -92,7 +92,7 @@
                             Aenean euismod bibendum laoreet.</h5>
                     </div>
                 </div>
-                <div class="right__social">
+                <div class="right__social"> <!-- Список -->
                     <div class="social__img">
                         <a href="#"><img class="kostil__img" src="./img/Facebook.png" alt="Facebook"></a>
                     </div>
@@ -112,7 +112,7 @@
                         <a href="#"></a><img src="./img/Github.png" alt="Github"></a>
                     </div>
                     <div class="social__img">
-                        <a href="#"></a><img src="./img/hz4to.png" alt="hz4to"></a>
+                        <a href="#"></a><img src="./img/hz4to.png" alt="hz4to"></a><!-- Za takoe mogut at-at-ta sdelat -->
                     </div>
                 </div>
             </div>
@@ -133,12 +133,12 @@
                     <div class="tabs__content">
                         <div class="tab__content tab__active" id="tab1">
                             <div class="tabs__wrapper">
-                                <div class="tab1__left-part">
+                                <div class="tab1__left-part"> <!-- Не используй цифры -->
                                     <div class="tab1__tittle">
                                         <h3>Tabs with soft transitioning effect.</h3>                                    
                                     </div>
-                                    <div class="tab1__text-info">
-                                        <p>
+                                    <div class="tab1__text-info"> <!-- Не используй цифры -->
+                                        <p> <!-- Избавься от br и запихни текст в один тег -->
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                              Aenean <br> euismod <br>
                                             bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> viverra <br>
@@ -153,7 +153,7 @@
                                         
                                     </div>
                                     <div class="tab1__btn-download">
-                                        <button class="tab1__btn" type="button"><span class="btn-text">Download</span></button>
+                                        <button class="tab1__btn" type="button"><span class="btn-text">Download</span></button><!-- Без span -->
                                     </div>
                                 </div>
                                 <div class="tab1__right-part">
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab__content" id="tab2">
+                        <div class="tab__content" id="tab2"> <!-- Размнож на три свой первый таб -->
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
@@ -214,7 +214,7 @@
                         <div class="all-card_icon__style">
                             <img src="./img/Keyboard.png" alt="Keyboard">
                         </div>
-                        <div class="all-card_head__style">
+                        <div class="all-card_head__style"><!-- ppc slozniy class -->
                             <h4>Thoughtful Design</h4>
                         </div>
                         <div class="all-card_text">
@@ -251,7 +251,7 @@
                     </div>
                 </div>
                 <div class="pricing-cards">
-                    <div class="pricing-card style_card-one">
+                    <div class="pricing-card style_card-one"> <!-- Зачем тебе привязка к числительным? -->
                         <div class="pricing-card__name">
                             <h4 class="pricing-card__text">Basic</h4>
                         </div>
@@ -261,6 +261,7 @@
                         <div class="pricing-card__discription">
                             <h5 class="pricing-card__discription-text">Free for life</h5>
                         </div>
+                        <!-- Тут начинается список -->
                         <div class="pricing-card__option">
                             <h5 class="pricing-card__option-text">1 Gb Of Space</h5>
                         </div>
@@ -346,20 +347,24 @@
 </body>
 
 <script>
+    const tabOne = document.getElementById("tab1");
+    const tabTwo = document.getElementById("tab2");
+    const tabThree = document.getElementById("tab3");
+    // Хардкод))
     function hidAS1(){
-        document.getElementById("tab1").style.display="block";
-        document.getElementById("tab2").style.display="none";
-        document.getElementById("tab3").style.display="none";
+        tabOne.style.display="block";
+        tabTwo.style.display="none";
+        tabThree.style.display="none";
     }
     function hidAS2(){
-        document.getElementById("tab1").style.display="none";
-        document.getElementById("tab2").style.display="block";
-        document.getElementById("tab3").style.display="none";
+        tabOne.style.display="none";
+        tabTwo.style.display="block";
+        tabThree.style.display="none";
     }
     function hidAS3(){
-        document.getElementById("tab1").style.display="none";
-        document.getElementById("tab2").style.display="none";
-        document.getElementById("tab3").style.display="block";
+        tabOne.style.display="none";
+        tabTwo.style.display="none";
+        tabThree.style.display="block";
     }
 </script>
 </html>
