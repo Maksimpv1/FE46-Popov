@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.offer{
+    max-height: 333px;
+}
+.container-offer{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-offer{
+    margin-top: 22px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 555px;
+    max-height: 296px;
+    position: relative;
+    
+}
+.offer-info{
+    margin-top: 75px ;
+    margin-left: 35px;
+    margin-bottom: 74px;
+    z-index: 2;
+    margin-right: 234px;
+}
+
+.offer-head-text>p{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #F4F9FC;
+    opacity: 0.6;
+}
+.offer-title{
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.offer-title>h2{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    color: #F4F9FC;
+    white-space:pre-line;
+}
+
+.offer-foot-text{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+}
+.right-marg{
+    margin-right: 30px;
+}
+.left__offer-picture{
+    position: absolute;
+    right: 0px;
+    transform: rotate(39.01deg);
+}
+.right__offer-picture{   
+    position: absolute;
+    right: 0px;
+}
