@@ -128,13 +128,13 @@ ul.header-menu li{
 
 
 /*Выше был header */
-.sec-banner{
+.banner{
   background-image: url(../img/bg_image.png);
   background-size: 100%;
   background-repeat: round;
   max-height: 950px;
 }
-.zatemnenie{
+.bg-shadow{
   width: 100%;
   max-height: 950px;
   background:rgba(0,  0,0, 0.5);

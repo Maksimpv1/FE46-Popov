@@ -53,17 +53,17 @@
     max-width: 1170px;
     height: 500px;
 }
-.tab1__left-part{
+.tab__left-part{
     max-width: 570px;
     height: 500px;
     margin-left: 100px;
     margin-right: 30px;
 }
-.tab1__right-part{
+.tab__right-part{
     height: 500px;
     max-width: 470px;
 }
-.tab1__tittle > h3{
+.tab__tittle > h3{
     font-family: "One sans", sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -72,17 +72,17 @@
     padding-bottom: 45px;
     margin-bottom: 27px;
 }
-.tab1__text-info{
+.tab__text-info{
     margin-bottom: 27px;
 }
 
-.tab1__text-info > p{
+.tab__text-info > p{
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     font-family: "Raleway", sans-serif;
 }
-.tab1__btn{
+.tab__btn{
   width: 270px;
   height: 58px;
   align-items:center;
@@ -94,7 +94,7 @@
   font-weight: 600;
 
 }
-.tab1__btn:hover{
+.tab__btn:hover{
   background-color: #e29191;  
 }
 .btn-text{
