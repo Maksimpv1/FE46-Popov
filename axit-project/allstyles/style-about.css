@@ -54,8 +54,7 @@
     height: 21px;
 }
 .wrapper-first-header-text__style{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     color: #C2C3C5;
     font-size: 18px;
     font-weight: normal;
@@ -74,8 +73,7 @@
     display: flex;/* Это сочитание 3ёх строк ставит элемент по центру -_-   1*/
     align-items: center;      /*2*/
     justify-content: center;   /*3*/
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 92px;
     height: 92px;
     border: 1px solid #EE8989;
@@ -183,11 +181,11 @@
 
 }
 
-.wrapper-awesome_line{
+/* .wrapper-awesome_line{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #EE8989;
     width: 170px;
     margin-top: 0px;
-}
+} */

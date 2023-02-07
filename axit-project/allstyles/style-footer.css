@@ -5,8 +5,7 @@
 }
 .footer__container{
     max-width: 570px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .footer__links{
     padding-top: 40px;
@@ -18,8 +17,7 @@
 
 }
 .footer__links ul>li{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     
 }
 .footer_img:hover{

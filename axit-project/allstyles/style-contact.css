@@ -8,8 +8,7 @@
 
 .container__contact{
     max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .contact__title{
@@ -27,13 +26,13 @@
     color: #000000;
 
 }
-.contact__title div{
+/* .contact__title div{
     width: 170px;
     margin-left: auto;
     margin-right: auto;
     height: 1px;
     background-color: #EC7979;
-}
+} */
 
 .contact__title h5{
     margin-top: 50px;
@@ -51,8 +50,7 @@
     flex-wrap: wrap;
 }
 .left__form{
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     max-width: 570px;
 }
 .left__form div{
@@ -64,7 +62,7 @@
 .left__form input{
     border: none;
 }
-.left__form label{
+.left__form input::placeholder{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -74,10 +72,9 @@
     
 }
 .right__form{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
-.right__form label{
+.right__form input::placeholder{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -101,9 +98,8 @@
     margin-top: 50px;
 }
 
-.contact__btn input{
-    margin-left: auto;
-    margin-right: auto;
+.contact__btn button{
+    margin: 0 auto;
     width: 370px;
     height: 58px;
     background-color: #EC7979;
@@ -116,7 +112,7 @@
     text-align: center;
     border: none;
 }
-.contact__btn input:hover{
+.contact__btn button:hover{
     background-color: #ec79797a;
     transition: 0.5s;
     border: 1px solid #86878B;
