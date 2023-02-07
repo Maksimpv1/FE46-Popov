@@ -1,6 +1,10 @@
 @import url("./style-tabs.css");
 @import url("./style-about.css");
 @import url("./style-pricing.css");
+@import url("./style-banner2.css");
+@import url("./style-contact.css");
+@import url("./style-footer.css");
+@import url("./style-reviews.css");
 *,
 *::before,
 *::after {

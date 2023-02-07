@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+
+@font-face{
+
+    font-family: 'Raleway';
+    
+    src: url('./fonts/Raleway-VariableFont_wght.ttf');
+    font-weight: normal;
+    
+    font-style: normal;
+}
+  
+    @font-face{
+  
+      font-family: 'Open Sans';
+      
+      src: url('./fonts/Open\ Sns/OpenSans-VariableFont_wdth,wght.ttf');
+      font-weight: normal;
+      
+      font-style: normal;
+      
+}
+
+.reviews{
+  background-color: #ffffff;
+}
+
+.reviews__container{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews__title{
+  width: 100%;
+  margin-bottom: 80px;
+}
+.reviews__title h2{
+  padding-top: 55px;
+  padding-bottom: 55px;
+  text-align: center;
+  font-family: 'Raleway' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+
+}
+.reviews__title div{
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: #EC7979;
+}
+
+.reviews__title h5{
+  margin-top: 50px;
+  font-family: 'Raleway' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #86878B;
+  margin-bottom: 35px;
+}
+
+.reviews__mes-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.card__full{
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.mes-card{
+  background-color: #E2E2E2;
+  border-radius: 10px;
+  position: relative;
+}
+.mes-card__text{ 
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.mes-card__text h5{
+  text-align: center;
+  font-family: 'Raleway' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #86878B;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.mes-card__triangle{
+  position: absolute;
+  margin-left: 20%;
+}
+
+
+.employe-card{
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: auto;
+  display: flex;
+}
+
+.employes-card__discr{
+  margin-left: 30px;
+}
+
+.employes-card__discr h4{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+
+}
+
+.employes-card__discr h5{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+
+}
