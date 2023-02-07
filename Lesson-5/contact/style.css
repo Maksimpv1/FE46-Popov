@@ -57,7 +57,7 @@ select {
 
     font-family: 'Raleway';
     
-    src: url('./fonts/Raleway-VariableFont_wght.ttf');
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
     font-weight: normal;
     
     font-style: normal;
@@ -67,7 +67,7 @@ select {
   
       font-family: 'Open Sans';
       
-      src: url('./fonts/Open\ Sns/OpenSans-VariableFont_wdth,wght.ttf');
+      src: url('../fonts/Open\ Sns/OpenSans-VariableFont_wdth,wght.ttf');
       font-weight: normal;
       
       font-style: normal;
