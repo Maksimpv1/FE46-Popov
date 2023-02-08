@@ -50,7 +50,7 @@
                         </h5>
                     </div>  
                     <div class="banner__btn">
-                        <button class="banner__btn_style"><span>Download</span></button><!-- Внутри кнопки можно прописывать простой текст без дополнительных тегов -->
+                        <button class="banner__btn_style" type="button">Download</button>
                     </div>                
 
                 </div>
@@ -58,7 +58,7 @@
                         <div class="form_name">
                             <h4 class="form__name_style">Try Your <span class="form__text_pink">FREE</span> Trial Today</h4>
                         </div>
-                        <div class="form__inpt-lines"><!-- Используй специальный тег form -->
+                        <form class="form__inpt-lines">
                             <div class="form__inpt-line">
                                 <input class="form__inpt-line_style" type="text" value="Name">
                                 <div class="form__line"></div><!-- У input есть дополнительный тег <label> и вообще эта линия - это нижняя граница элемента input -->
@@ -71,7 +71,7 @@
                                 <input class="form__inpt-line_style" type="text" value="Password">
                                 <div class="form__line"></div>
                             </div>
-                        </div>
+                        </form>
                         <div class="form__btn">
                             <button class="form__btn_pink">Get Started</button>
                         </div>
@@ -93,7 +93,16 @@
                     </div>
                 </div>
                 <div class="right__social"> <!-- Список -->
-                    <div class="social__img">
+                    <ul>
+                        <li><a href="#"><img class="kostil__img" src="./img/Facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="./img/twiter.png" alt="twiter"></a></li>
+                        <li><a href="#"><img src="./img/Linkidin.png" alt="Linkidin"></a></li>
+                        <li><a href="#"><img src="./img/mail.png" alt="mail"></a></li>
+                        <li><a href="#"><img src="./img/instagram.png" alt="instagram"></a></li>
+                        <li><a href="#"><img src="./img/Github.png" alt="Github"></a></li>
+                        <li><a href="#"><img src="./img/rss.png" alt="rss"></a></li>
+                    </ul>
+                    <!-- <div class="social__img">
                         <a href="#"><img class="kostil__img" src="./img/Facebook.png" alt="Facebook"></a>
                     </div>
                     <div class="social__img">
@@ -112,8 +121,8 @@
                         <a href="#"></a><img src="./img/Github.png" alt="Github"></a>
                     </div>
                     <div class="social__img">
-                        <a href="#"></a><img src="./img/hz4to.png" alt="hz4to"></a><!-- Za takoe mogut at-at-ta sdelat -->
-                    </div>
+                        <a href="#"></a><img src="./img/hz4to.png" alt="hz4to"></a>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -124,14 +133,14 @@
                 <div class="tabs__list">
                         <div class="list_header-location">
                             <ul class="nav">
-                                <li class="nav__list-location"><a class="nav__item" href="#tab1" onclick="hidAS1()">TAB 1</a></li>
-                                <li class="nav__list-location"><a class="nav__item" href="#tab2" onclick="hidAS2()">TAB 2</a></li>                        
-                                <li class="nav__list-location"><a class="nav__item" href="#tab3" onclick="hidAS3()">TAB 3</a></li>
+                                <li class="nav__list-location"><a class="nav__item" href="#tab-one" onclick="hidAS1()">TAB 1</a></li>
+                                <li class="nav__list-location"><a class="nav__item" href="#tab-two" onclick="hidAS2()">TAB 2</a></li>                        
+                                <li class="nav__list-location"><a class="nav__item" href="#tab-thr" onclick="hidAS3()">TAB 3</a></li>
                             </ul>
                         </div>
                     
                     <div class="tabs__content">
-                        <div class="tab__content tab__active" id="tab1">
+                        <div class="tab__content tab__active" id="tab-one">
                             <div class="tabs__wrapper">
                                 <div class="tab__left-part"> <!-- Не используй цифры -->
                                     <div class="tab__tittle">
@@ -163,7 +172,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab__content" id="tab2"> <!-- Размнож на три свой первый таб -->
+                        <div class="tab__content" id="tab-two"> <!-- Размнож на три свой первый таб -->
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
@@ -174,7 +183,7 @@
                                 bibendum laoreet.
                             </p>
                         </div>
-                        <div class="tab__content" id="tab3">
+                        <div class="tab__content" id="tab-thr">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
@@ -192,8 +201,8 @@
                 <div class="wrapper-awesome__style">
                     <h2>WHY THIS IS AWESOME</h2>
                 </div>
-                <div class="wrapper-awesome_line">
-                </div>               
+                <div class="banner__line pink-line"></div>
+                <!-- <div class="wrapper-awesome_line"></div>-->
                 <div class="wrapper-first-header-text_div">
                     <h5 class="wrapper-first-header-text__style">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                 </div>
@@ -245,13 +254,14 @@
                     <div class="pricing-header__title">
                         <h2 class="pricing-header__title_style">PRICING OPTIONS</h2>                        
                     </div>
-                    <div class="wrapper-pricing__line"></div>
+                    <div class="banner__line pink-line"></div>
+                    <!-- <div class="wrapper-pricing__line"></div> -->
                     <div class="pricing-header__discript">
                         <p class="pricing-header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="pricing-cards">
-                    <div class="pricing-card style_card-one"> <!-- Зачем тебе привязка к числительным? -->
+                    <div class="pricing-card style_card-one"> 
                         <div class="pricing-card__name">
                             <h4 class="pricing-card__text">Basic</h4>
                         </div>
@@ -261,8 +271,18 @@
                         <div class="pricing-card__discription">
                             <h5 class="pricing-card__discription-text">Free for life</h5>
                         </div>
-                        <!-- Тут начинается список -->
+                        
                         <div class="pricing-card__option">
+                            <ul>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="pricing-card__option">
                             <h5 class="pricing-card__option-text">1 Gb Of Space</h5>
                         </div>
                         <div class="pricing-card__option">
@@ -279,7 +299,7 @@
                         </div>
                         <div class="pricing-card__option">
                             <h5 class="pricing-card__option-text">1 Gb Of Space</h5>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="pricing-card style_card-two">
                         <div class="pricing-card__name">
@@ -292,6 +312,16 @@
                             <h5 class="pricing-card__discription-text">Free for life</h5>
                         </div>
                         <div class="pricing-card__option">
+                            <ul>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="pricing-card__option">
                             <h5 class="pricing-card__option-text">1 Gb Of Space</h5>
                         </div>
                         <div class="pricing-card__option">
@@ -308,7 +338,7 @@
                         </div>
                         <div class="pricing-card__option">
                             <h5 class="pricing-card__option-text">1 Gb Of Space</h5>
-                        </div>
+                        </div> -->
                     </div>           
                     <div class="pricing-card style_card-three">
                         <div class="pricing-card__name">
@@ -321,6 +351,16 @@
                             <h5 class="pricing-card__discription-text">Free for life</h5>
                         </div>
                         <div class="pricing-card__option">
+                            <ul>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                                <li>1 Gb Of Space</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="pricing-card__option">
                             <h5 class="pricing-card__option-text">1 Gb Of Space</h5>
                         </div>
                         <div class="pricing-card__option">
@@ -337,19 +377,174 @@
                         </div>
                         <div class="pricing-card__option">
                             <h5 class="pricing-card__option-text">1 Gb Of Space</h5>
-                        </div>
+                        </div> -->
                     </div>                               
                 </div>
             </div>
         </div>
+    </section>
+    <section class="reviews">
+        <div class="reviews__container">
+            <div class="reviews__wrapper">
+                <div class="reviews__title">
+                    <h2>WHAT OUR CUSTOMERS ARE SAYNING</h2>
+                    <div class="banner__line pink-line"></div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                </div>
+                <div class="reviews__mes-cards">
+                    <div class="card__full">
+                        <div class="mes-card">
+                            <div class="mes-card__text">
+                                <h5>Lorem ipsum dolor sit amet, 
+                                    consectetur adipisicing elit. Doloribus 
+                                    accusamus expedita repellat similique 
+                                    odio aspernatur ex, architecto eaque 
+                                    quo suscipit.
+                                </h5>
+                            </div>
+                            <div class="mes-card__triangle"><img src="./img/triangle.png"></div>
+                        </div>
+                        <div class="employe-card">
+                            <div class="employes-card__img">
+                                <img src="./img/Davis.png" alt="Davis">
+                            </div>
+                            <div class="employes-card__discr">
+                                <h4>Davis Rhiel Madsen</h4>
+                                <h5>Manager</h5>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="card__full">
+                        <div class="mes-card">
+                            <div class="mes-card__text">
+                                <h5>Lorem ipsum dolor sit amet, 
+                                    consectetur adipisicing elit. Doloribus 
+                                    accusamus expedita repellat similique 
+                                    odio aspernatur ex, architecto eaque 
+                                    quo suscipit.
+                                </h5>
+                            </div>
+                            <div class="mes-card__triangle"><img src="./img/triangle.png"></div>
+                        </div>
+                        <div class="employe-card">
+                            <div class="employes-card__img">
+                                <img src="./img/Jaydon.png" alt="Jaydon">
+                            </div>
+                            <div class="employes-card__discr">
+                                <h4>Jaydon Rosser</h4>
+                                <h5>Manager</h5>
+                            </div>  
+                        </div> 
+                    </div>
+                    <div class="card__full">
+                        <div class="mes-card">
+                            <div class="mes-card__text">
+                                <h5>Lorem ipsum dolor sit amet, 
+                                    consectetur adipisicing elit. Doloribus 
+                                    accusamus expedita repellat similique 
+                                    odio aspernatur ex, architecto eaque 
+                                    quo suscipit.
+                                </h5>
+                            </div>
+                            <div class="mes-card__triangle"><img src="./img/triangle.png"></div>
+                        </div>
+                        <div class="employe-card">
+                            <div class="employes-card__img">
+                                <img src="./img/Cooper.png" alt="Cooper">
+                            </div>
+                            <div class="employes-card__discr">
+                                <h4>Cooper Dorwart</h4>
+                                <h5>Manager</h5>
+                            </div>  
+                        </div>       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-design">
+        <div class="banner-design__shadow">
+            <div class="container__banner-design">
+                <div class="wrapper__banner-design">
+                    <div class="banner-design__content">
+                        <div class="banner-design__title">
+                            <h2>STYLISH AXURE DESIGN</h2>
+                            <div class="banner__line white-centre"></div>
+                        </div>
+                        <div class="banner-design__discription">
+                            <h5>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+                        </div>
+                        <div class="banner-design__button">
+                            <button type="button">Download</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container__contact">
+            <div class="wrapper__contact">
+                <div class="contact__title">
+                    <h2>CONTACT US</h2>
+                    <div class="banner__line pink-line"></div>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                </div>
+                <form class="contact__forms">
+                    <div class="left__form">
+                        <div class="left-form__name">
+                            <input type="text"  placeholder="Name">
+                        </div>
+                        <div class="left-form__Email" >
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="left-form__Password">
+                            <input type="password" placeholder="Password">                              
+                        </div>
+                    </div>
+                    <div class="right__form">
+                        <div class="right-form__message">                                                          
+                            <input type="text" placeholder="Message">                            
+                        </div>                        
+                    </div>
+                </form>
+                <div class="contact__btn">
+                    <button type="submit">Send Message</button>
+                </div>
+            </div>
+        </div>
     </section>   
+    <section class="footer">
+        <div class="footer__container">
+            <div class="footer__wrapper">
+                <div class="footer__links">
+                    <ul>
+                        <li><a href="#"><img class="footer_img" src="./img/facebook-footer.png" alt="facebook"></a></li>
+                        <li><a href="#"><img class="footer_img" src="./img/twitter-footer.png" alt="twitter"></a></li>
+                        <li><a href="#"><img class="footer_img" src="./img/Linked-footer.png" alt="Linked"></a></li>
+                        <li><a href="#"><img class="footer_img" src="./img/pinterest-footer.png" alt="pinterest"></a></li>
+                        <li><a href="#"><img class="footer_img" src="./img/instagram_footer.png" alt="instagram"></a></li>
+                        <li><a href="#"><img class="footer_img" src="./img/github-footer.png" alt="github"></a></li>
+                        <li><a href="#"><img class="footer_img" src="./img/rss-footer.png" alt="rss"></a></li>
+                    </ul>
+
+                </div>
+                <div class="footer__text">
+                    <h5>
+                        © 2015 Axure Themes
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     
 </body>
 
 <script>
-    const tabOne = document.getElementById("tab1");
-    const tabTwo = document.getElementById("tab2");
-    const tabThree = document.getElementById("tab3");
+    const tabOne = document.getElementById("tab-one");
+    const tabTwo = document.getElementById("tab-two");
+    const tabThree = document.getElementById("tab-thr");
     // Хардкод))
     function hidAS1(){
         tabOne.style.display="block";
