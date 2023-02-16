@@ -6,8 +6,7 @@
 
 .reviews__container{
   max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 69px auto 44px auto;
 }
 
 .reviews__title{
@@ -15,7 +14,6 @@
   margin-bottom: 80px;
 }
 .reviews__title h2{
-  padding-top: 55px;
   padding-bottom: 55px;
   text-align: center;
   font-family: 'Raleway' , sans-serif;
@@ -35,7 +33,7 @@
 } */
 
 .reviews__title h5{
-  margin-top: 50px;
+  margin-top: 38px;
   font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -49,22 +47,21 @@
 .reviews__mes-cards{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
 }
 .card__full{
   max-width: 380px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  margin:0px auto;
+  margin-bottom: 20px;
 }
 .mes-card{
   background-color: #E2E2E2;
   border-radius: 10px;
-  position: relative;
+  position: relative; 
+  height: 180px;
+  width: 370px;
 }
 .mes-card__text{ 
-  padding-top: 37px;
-  padding-bottom: 37px;
+  padding-top: 10px;
 }
 .mes-card__text h5{
   text-align: center;
@@ -74,20 +71,28 @@
   font-size: 18px;
   line-height: 21px;
   display: flex;
-  align-items: center;
   color: #86878B;
   padding-left: 30px;
   padding-right: 30px;
-}
+} 
+
 
 .mes-card__triangle{
   position: absolute;
   margin-left: 20%;
 }
+#triangle__card{
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+  }
+
 
 
 .employe-card{
-  margin-top: 30px;
+  margin-top: 60px;
   margin-left: 0px;
   margin-right: auto;
   display: flex;
@@ -109,12 +114,135 @@
 
 }
 
-.employes-card__discr h5{
+.employes-card__discr p{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+  margin-top: 15px;
 
+}
+
+@media screen and (max-width: 1024px){
+  .reviews{
+    background-color: #ffffff;
+  }
+  
+  .reviews__container{
+    max-width: 1024px;
+    margin: 69px auto 36px auto;
+  }
+  
+  .reviews__title{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .reviews__title h2{
+    padding-bottom: 45px;
+    text-align: center;
+    font-family: 'Raleway' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .reviews__title h5{
+    margin-top: 33px;
+    font-family: 'Raleway' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 0px;
+  }
+
+
+  .card__full{
+    max-width: 317px;
+    margin:0px auto;
+    margin-bottom: 20px;
+  }
+  .mes-card{
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    position: relative; 
+    height: 180px;
+    width: 317px;
+  }
+  .mes-card__text{ 
+    padding-top: 28px;
+  }
+  .mes-card__text h5{
+    text-align: center;
+    font-family: 'Raleway' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    color: #86878B;
+    padding-left: 30px;
+    padding-right: 30px;
+  } 
+  
+  
+  .mes-card__triangle{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20%;
+  }
+  #triangle__card{
+      width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 20px solid #E2E2E2;
+    }
+  
+  
+  
+  .employe-card{
+    margin-top: 68px;
+    margin-left: 0px;
+    margin-right: auto;
+    display: flex;
+  }
+  
+  .employes-card__discr{
+    margin-left: 30px;
+  }
+  
+  .employes-card__discr h4{
+    margin-top: -11px;
+    margin-left: -3px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  
+  }
+  .employes-card__img img{
+    width: 63px;
+    height: 63px;
+  }
+  
+  .employes-card__discr p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: -4px;
+  
+  }
+  
 }
