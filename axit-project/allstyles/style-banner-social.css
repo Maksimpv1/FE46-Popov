@@ -114,14 +114,13 @@
     max-height: 105px;
     margin: 0 auto;
   }
-
-  .right__social ul>li{
-    margin: 0 auto;  
-  }
   .right__social{
     padding-top: 15px;
     align-items: center;
     flex: 1;
+  }
+  .right__social ul>li{
+    margin: 0 auto;  
   }
 
 }
