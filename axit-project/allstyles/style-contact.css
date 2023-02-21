@@ -129,3 +129,61 @@
     transition: 0.5s;
     border: 1px solid #86878B;
 }
+@media screen and (max-width: 1024px) {
+    .wrapper__contact{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0 20px;
+    }
+    
+    .container__contact{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .contact__title{
+        width: 100%;
+    }
+    .contact__title h2{
+        padding-top: 46px;
+        padding-bottom: 45px;
+        text-align: center;
+        font-family: 'Raleway' , sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .contact__title h5{
+        margin-top: 33px;
+        font-family: 'Raleway' , sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #86878B;
+        margin-bottom: 18px;
+    }
+    .contact__btn{
+        display: flex;
+        margin-top: 53px;
+    }
+    
+    .contact__btn button{
+        margin: 0 auto;
+        width: 318px;
+        height: 58px;
+        background-color: #EC7979;
+        color: #ffffff;
+        font-family: 'Open Sans' , sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        border: none;
+    }
+
+}

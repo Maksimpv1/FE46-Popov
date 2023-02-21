@@ -35,3 +35,41 @@
     padding-bottom: 27px;
     color: rgba(255, 255, 255, 0.5);
 }
+@media screen and (max-width: 1024px){
+    .footer__container{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .footer__links{
+        padding-top: 40px;
+        margin-bottom: 14px;
+    }
+    .footer__links ul{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .footer__links ul>li{
+        margin: 0 auto;
+        
+    }
+    .footer_img{
+        scale: 0.8;
+    }
+    .footer_img:hover{
+        scale: 1.2;
+        transition: 0.5s;
+    }
+    
+    .footer__text p{
+        margin-top: 23px;
+        font-family: 'Raleway' , sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+}
