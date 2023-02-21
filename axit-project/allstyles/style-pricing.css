@@ -124,23 +124,6 @@
     margin: 0 auto;
     color: #FFFFFF80;
 }
- /* .pricing-card__option{
-    background-color: #FFFFFF;
-    border: 1px solid #F5F5F5;
-    width: 370px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-.pricing-card__option-text{
-    font-family: 'Raleway' ,sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0 auto;
-    color: #86878B;
-} */
 .pricing-card__option ul{
     
     color: #86878B;

@@ -115,6 +115,71 @@
     height: 21px;
 
 }
+
+.banner__line_ab {
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 170px;
+}
+.pink-line_ab{
+    display: flex;
+    margin: 0 auto;
+    background-color: #EC7979;
+    margin-top: 0px;
+}
+@media screen and (max-width: 1150px){
+    .wrapper-first-header-text__style{
+        text-align: center;
+        color: #C2C3C5;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: normal;
+        font-family: "Raleway", sans-serif;
+        margin: -7px auto 0 auto;
+    }
+
+    .all-card_icon__style{
+        display: flex;
+        align-items: center;      
+        justify-content: center;   
+        margin: -56px auto 0 auto;
+        width: 80px;
+        height: 80px;
+        border: 1px solid #EE8989;
+        border-radius: 100%;
+    }
+    .all-card_head__style{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:318px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: "One sans", sans-serif;
+        margin-top: 25px;
+        margin-bottom: 8px;
+    
+    }
+    .all-card_text{
+        width: 318px;
+        height: 64px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px; 
+        
+    }
+    .all-card_text>p{
+        font-weight: normal;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        height: 21px;
+    }
+}
 @media screen and (max-width: 1024px){
     .container-about{
         background-color: #FFFFFF;
@@ -200,5 +265,249 @@
         line-height: 16px;
         height: 21px;
     }
+
+}
+
+@media screen and (max-width: 950px){
+
+.about{
+    background-color: #FFFFFF;
+}
+.container-about{
+    background-color: #FFFFFF;
+    max-width: 1170px;
+    margin: 50px auto 48px auto;
+}
+.wrapper-about{
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-awesome__style>h2{
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+}
+    
+.wrapper-awesome__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1170px;
+    height: 150px;
+    
+}
+.wrapper-first-header-text_div{
+    margin-top: 40px;
+    display: flex;
+    max-width: 1170px;
+    height: 21px;
+    
+}
+.wrapper-first-header-text__style{
+    text-align: center;
+    color: #C2C3C5;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+    margin: 0px auto;
+}
+
+.cards-about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    align-items: center;      /*2*/
+    justify-content: center;   /*3*/
+    flex-wrap: wrap;
+
+}
+.card-about{
+    margin: 0 auto;
+}
+.all-card_icon__style{
+    display: flex;/* Это сочитание 3ёх строк ставит элемент по центру -_-   1*/
+    align-items: center;      /*2*/
+    justify-content: center;   /*3*/
+    margin: 0 auto;
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EE8989;
+    border-radius: 100%;
+}
+
+.all-card_head__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:369px;
+    height: 100px;
+    margin-top: 39px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "One sans", sans-serif;
+
+}
+
+.all-card_text{
+    margin: 0 auto 20px auto;
+    max-width: 320px;
+    height: 105px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.all-card_text p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.banner__line_ab {
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 134px;
+}
+.pink-line_ab{
+    display: flex;
+    margin: 0 auto;
+    background-color: #EC7979;
+    margin-top: 0px;
+}
+
+
+}
+
+
+@media screen and (max-width: 320px){
+
+.about{
+    background-color: #FFFFFF;
+}
+.container-about{
+    background-color: #FFFFFF;
+    max-width: 1170px;
+    margin: 50px auto 48px auto;
+}
+.wrapper-about{
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-awesome__style>h2{
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+}
+    
+.wrapper-awesome__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1170px;
+    height: 150px;
+    
+}
+.wrapper-first-header-text_div{
+    margin-top: 40px;
+    display: flex;
+    max-width: 1170px;
+    height: 21px;
+    
+}
+.wrapper-first-header-text__style{
+    text-align: center;
+    color: #C2C3C5;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+    margin: 0px auto;
+}
+
+.cards-about{
+    display: flex;
+    margin-top: 110px;
+    align-items: center;      /*2*/
+    justify-content: center;   /*3*/
+    flex-wrap: wrap;
+
+}
+.card-about{
+    margin: 0 auto;
+}
+.all-card_icon__style{
+    display: flex;/* Это сочитание 3ёх строк ставит элемент по центру -_-   1*/
+    align-items: center;      /*2*/
+    justify-content: center;   /*3*/
+    margin: 0 auto;
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EE8989;
+    border-radius: 100%;
+}
+
+.all-card_head__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:369px;
+    height: 100px;
+    margin-top: 39px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "One sans", sans-serif;
+
+}
+
+.all-card_text{
+    margin: 0 auto 20px auto;
+    max-width: 320px;
+    height: 105px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.all-card_text p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.banner__line_ab {
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 134px;
+}
+.pink-line_ab{
+    display: flex;
+    margin: 0 auto;
+    background-color: #EC7979;
+    margin-top: 0px;
+}
+
 
 }
