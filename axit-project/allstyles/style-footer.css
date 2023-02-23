@@ -23,6 +23,7 @@
 .footer_img:hover{
     scale: 1.2;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .footer__text p{
@@ -72,12 +73,21 @@
     color: rgba(255, 255, 255, 0.5);
 }
 }
-@media screen and (max-width:320px){
-.links__elemets ul{
-    margin: 0 auto;
-    padding: 0;
-    flex-wrap: nowrap;
+@media screen and (max-width:550px){
+    .links__elemets ul{
+        margin: 0 auto;
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+    .links__elemets li{
+        max-width: 40px;
+        max-height: 40px;
+        margin: 0;
+    }
+
 }
+@media screen and (max-width:320px){
+
 .links__elemets li{
     max-width: 25px;
     max-height: 25px;

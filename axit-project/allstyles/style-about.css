@@ -405,8 +405,17 @@
     display: flex;
     flex-direction: column;
 }
+    
+.wrapper-awesome__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1170px;
+    height: 60px;
+    margin-bottom: 40px;
+    
+}
 .wrapper-awesome__style>h2{
-
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -414,15 +423,7 @@
     font-weight: normal;
     font-family: "Raleway", sans-serif;
 }
-    
-.wrapper-awesome__style{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1170px;
-    height: 150px;
-    
-}
+
 .wrapper-first-header-text_div{
     margin-top: 40px;
     display: flex;

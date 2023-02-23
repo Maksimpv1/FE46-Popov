@@ -80,14 +80,11 @@
 .mes-card__triangle{
   position: absolute;
   margin-left: 20%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 25px solid #E2E2E2;
 }
-#triangle__card{
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 20px solid #E2E2E2;
-  }
+
 
 
 
@@ -124,8 +121,7 @@
   margin-top: 15px;
 
 }
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1150px){
   .reviews{
     background-color: #ffffff;
   }
@@ -172,7 +168,7 @@
     border-radius: 10px;
     position: relative; 
     height: 180px;
-    width: 317px;
+    max-width: 317px;
   }
   .mes-card__text{ 
     padding-top: 28px;
@@ -195,15 +191,11 @@
     position: absolute;
     margin-top: 25px;
     margin-left: 20%;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 20px solid #E2E2E2;
   }
-  #triangle__card{
-      width: 0;
-      height: 0;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-top: 20px solid #E2E2E2;
-    }
-  
+
   
   
   .employe-card{
@@ -245,4 +237,11 @@
   
   }
   
+}
+@media screen and (max-width:990px){
+  .mes-card{
+    height: 180px;
+    max-width: 290px;
+  }
+
 }
