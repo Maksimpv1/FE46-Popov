@@ -1,4 +1,4 @@
-let video = document.querySelector('#videoPlayer');
+const video = document.querySelector('#videoPlayer');
 const volumeV = document.getElementById('volume');
 document.querySelector('#volume-btn').onclick= showVolume;
 
