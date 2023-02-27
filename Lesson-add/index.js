@@ -1,42 +1,20 @@
 const video = document.querySelector('#videoPlayer');
 const volumeV = document.getElementById('volume');
-// document.querySelector('#volume-btn').onclick= showVolume;
-// document.querySelector('#play').onclick= playFunc;
-// document.querySelector('#stop').onclick= stopFunc;
-// document.querySelector('#pause').onclick= pauseFunc;
-// document.querySelector('#volume').oninput = videoVolume;
-
 const clickShowVolume = document.querySelector('#volume-btn');
 const clickPlay = document.querySelector('#play');
-const clickStop = document.querySelector('#stop');
-const clickPause = document.querySelector('#pause');
+const clickStop = document.querySelector('#pause');
+const clickPause = document.querySelector('#stop');
 
-// function showVolume(){
-//     if(volumeV.style.display == 'none'){
-//     volumeV.style.display =  'inline';
-// }else{
-//         volumeV.style.display = 'none';
-//     }
-// }
-
-
-
-
-
-// function pauseFunc(){
-//     video.pause();
-//     video.currentTime = 0;
-
-// };
-
-// function stopFunc(){
-//     video.pause();
-
-// };
-
-
-
-// function videoVolume() {
-//     let sec = this.value;
-//     video.volume = sec / 100;
-// }; 
+clickPause.addEventListener('click', () => video.pause());
+clickStop.addEventListener('click',()=>{
+    video.pause();
+    video.currentTime=0;
+});
+clickPlay.addEventListener('click',()=>video.play());
+clickShowVolume.addEventListener('click',()=>{ 
+    volumeV.style.display === 'none' ? volumeV.style.display = 'inline' : volumeV.style.display = 'none';});
+ function prec() {
+     let sec = this.value;
+     video.volume = sec / 100;
+ }; 
+ volumeV.addEventListener('change',prec);
