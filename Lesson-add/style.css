@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.player{
+    background-color: #23272A;
+}
+.container__player{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapper__player{
+    padding: 50px 20px 50px 20px;
+    width: 100%;
+}
+.main__player{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.player__last_of_us{
+    width: 100%;
+    height: 100%;
+    border: 5px solid #4F5A6E;
+    border-radius: 10px;
+}
+.player__progress{
+    max-width: 580px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-bottom: 5px;
+
+}
+.progress-bar {
+    display: block;
+    width: 100%;
+}
+.progress-bar[value] {
+    border-radius: 10px;
+    background-color: #4F5A6E;
+}
+.progress-bar[value]::-webkit-progress-bar {
+    border-radius: 10px;
+    background-color: #4F5A6E;
+}
+.progress-bar[value]::-webkit-progress-value {
+    border-radius: 10px;
+    background-color: rgba(0, 153, 255, 0.507);
+}
+.progress-bar[value]::-moz-progress-bar {
+    border-radius: 10px;
+    background-color: #4F5A6E;
+}
+
+.controls{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.rigth__main-controls{
+    display: flex;
+}
+#volume{
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    display: none;
+}
+.main__controls{
+    display: flex;
+    justify-content: space-between;
+}
+.main__play{
+    width: 33px;
+    height: 33px;
+    margin-right: 20px;
+    background: none;
+    border: none;
+}
+.volume__control{
+    max-width: 100%;
+    position: relative;
+}
+.main__volume{
+    width: 33px;
+    height: 33px;
+    background: none;
+    border: none;
+    left:0;
+}
+.btn-play path{
+    fill: aquamarine;
+}
+.main__play:hover .btn-play path{
+    fill: rgba(127, 214, 255, 0.76);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main__volume:hover .btn-play path{
+    fill: rgba(127, 214, 255, 0.76);
+    cursor: pointer;
+    transition: 0.3s;
+}
