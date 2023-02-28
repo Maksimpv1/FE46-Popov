@@ -458,6 +458,14 @@
                         </div>       
                     </div>
                 </div>
+                <div class="reviews__slaider-btns">
+                    <input class="slaider-btn" name="slider-rewie" type="radio" id="slaider-btn1" value="slaider-btn1">
+                    <label for="slaider-btn1"></label>
+                    <input class="slaider-btn" name="slider-rewie" type="radio" id="slaider-btn2" value="slaider-btn2">
+                    <label for="slaider-btn2"></label>
+                    <input class="slaider-btn" name="slider-rewie" type="radio" id="slaider-btn3" value="slaider-btn3">
+                    <label for="slaider-btn3"></label>
+                </div>
             </div>
         </div>
     </section>
@@ -534,45 +542,4 @@
     </section>    
 </body>
 <script src="./js/index.js"></script>
-<script>
-    const tabOne = document.getElementById("tab-one");
-    const tabTwo = document.getElementById("tab-two");
-    const tabThree = document.getElementById("tab-thr");
-    // Хардкод))
-    function hidAS1(){
-        tabOne.style.display="block";
-        tabTwo.style.display="none";
-        tabThree.style.display="none";
-        scroll
-    }
-    function hidAS2(){
-        tabOne.style.display="none";
-        tabTwo.style.display="block";
-        tabThree.style.display="none";
-    }
-    function hidAS3(){
-        tabOne.style.display="none";
-        tabTwo.style.display="none";
-        tabThree.style.display="block";
-    }
-
-    
-    /*  Работает но я пока не понял как
-    const smoothLinks = document.querySelectorAll('a[href^="#"]');
-    for (let smoothLink of smoothLinks) {
-    smoothLink.addEventListener('click', function (e) {
-        e.preventDefault();
-        const id = smoothLink.getAttribute('href');
-
-        document.querySelector(id).scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    });
-      
-
-    */
-    
-  
-</script>
 </html>
