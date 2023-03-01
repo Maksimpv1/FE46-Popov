@@ -32,10 +32,39 @@ function hidAS3(){
     tabTwo.style.display="none";
     tabThree.style.display="block";
 }
-let sliderCards =[
-        document.getElementById('#review-card-one'),
-        document.getElementById('#review-card-two'),
-        documet.getElementById('#review-card-three')];
+ const cards = document.querySelectorAll('.reviews__mes-cards .card__full');
+ const sliderLine = document.querySelector('.reviews__mes-cards .wrapper__cards-rev');
+ let count = 0;
+ let width;
+ function init(){
+    console.log('resize');
+    width = document.querySelector('.reviews__mes-cards').offsetWidth;
+    sliderLine.style.width = width * cards.length + 'px';
+    cards.forEach(item => {
+        item.style.width = width + 'px';
+    });
+    rollSlider()
+ }
+ init();
 
-let i=0;
+ document.querySelector('.slider-back-card').addEventListener('click', function (){
+    count++;
+    if (count >= cards.length) {
+        count = 0;}
+    rollSlider()
+ });
+ document.querySelector('.slider-center-card').addEventListener('click', function (){
+    count = 1;
+    rollSlider()
+ });
+ document.querySelector('.slider-next-card').addEventListener('click', function (){
+    count--;
+    if (count < 0) {
+        count = cards.length - 1;
+    }
+    rollSlider()
+ });
 
+ function rollSlider(){
+    sliderLine.style.transform = 'translate(-'+count*width+'px)';
+ }
