@@ -32,3 +32,10 @@ function hidAS3(){
     tabTwo.style.display="none";
     tabThree.style.display="block";
 }
+let sliderCards =[
+        document.getElementById('#review-card-one'),
+        document.getElementById('#review-card-two'),
+        documet.getElementById('#review-card-three')];
+
+let i=0;
+
