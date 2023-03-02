@@ -27,7 +27,6 @@
 }
 
 .footer__text p{
-    font-family: 'Raleway' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -64,7 +63,6 @@
 
 .footer__text p{
     margin-top: 23px;
-    font-family: 'Raleway' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

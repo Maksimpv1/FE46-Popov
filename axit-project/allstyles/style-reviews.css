@@ -16,7 +16,6 @@
 .reviews__title h2{
   padding-bottom: 55px;
   text-align: center;
-  font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -26,7 +25,6 @@
 }
 .reviews__title h5{
   margin-top: 38px;
-  font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -36,32 +34,44 @@
   margin-bottom: 35px;
 }
 
+
+
 .reviews__mes-cards{
-    display: flex;
-    flex-wrap: wrap;
+   width: 95%;
+   margin: 0 auto;
 }
+
 .wrapper__cards-rev{
   display: flex;
   margin:0px auto;
 }
+
 .card__full{
-  max-width: 380px;
-  margin:0px auto;
+  margin:0px 10px;
   margin-bottom: 20px;
 }
+ 
 .mes-card{
   background-color: #E2E2E2;
   border-radius: 10px;
   position: relative; 
   height: 180px;
-  width: 370px;
+  max-width: 100%;
+}
+.mes-card::after{
+  content: '';
+  position: absolute;
+  margin-left: 20%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 25px solid #E2E2E2;
 }
 .mes-card__text{ 
   padding-top: 10px;
+  height: 100%;
 }
 .mes-card__text h5{
   text-align: center;
-  font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -71,13 +81,8 @@
   padding-left: 30px;
   padding-right: 30px;
 } 
-.mes-card__triangle{
-  position: absolute;
-  margin-left: 20%;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 25px solid #E2E2E2;
-}
+
+
 .employe-card{
   margin-top: 60px;
   margin-left: 0px;
@@ -98,7 +103,6 @@
   color: #000000;
 }
 .employes-card__discr p{
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -106,6 +110,7 @@
   color: #000000;
   margin-top: 15px;
 }
+
 .reviews__slaider-btns{
   display: none;
   flex-direction: row;
@@ -126,34 +131,28 @@
 .slaider-btn:checked + label::before{
   background-color: #86878B;
 }
+
 @media screen and (max-width: 1150px){
   .reviews{
     background-color: #ffffff;
   }  
   .reviews__container{
-    max-width: 1024px;
+    max-width: 1150px;
     margin: 69px auto 36px auto;
   }
-  
+ 
   .reviews__title{
     width: 100%;
     margin-bottom: 30px;
   }
   .reviews__title h2{
     padding-bottom: 45px;
-    text-align: center;
-    font-family: 'Raleway' , sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
   }
   .reviews__title h5{
     margin-top: 33px;
-    font-family: 'Raleway' , sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -161,44 +160,22 @@
     margin-bottom: 0px;
   }
 
-
-  .card__full{
-    max-width: 317px;
-    margin:0px auto;
-    margin-bottom: 20px;
-  }
   .mes-card{
     background-color: #E2E2E2;
     border-radius: 10px;
     position: relative; 
-    height: 180px;
-    max-width: 317px;
   }
   .mes-card__text{ 
     padding-top: 28px;
   }
   .mes-card__text h5{
     text-align: center;
-    font-family: 'Raleway' , sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    display: flex;
-    color: #86878B;
     padding-left: 30px;
     padding-right: 30px;
   } 
   
-  
-  .mes-card__triangle{
-    position: absolute;
-    margin-top: 25px;
-    margin-left: 20%;
-    border-left: 17px solid transparent;
-    border-right: 17px solid transparent;
-    border-top: 20px solid #E2E2E2;
-  }
 
   
   
@@ -216,9 +193,6 @@
   .employes-card__discr h4{
     margin-top: -11px;
     margin-left: -3px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     color: #000000;
@@ -230,8 +204,6 @@
   }
   
   .employes-card__discr p{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -242,24 +214,16 @@
   }
   
 }
-@media screen and (max-width:990px){
-  .mes-card{
-    height: 180px;
-    max-width: 290px;
-  }
-}
-@media screen and (max-width:900px){
+@media screen and (max-width:880px){
   .reviews__container{
     margin-top: 40px;
   }
+  .wrapper__cards-rev{
+    transition: all ease 1s;
+  }
   .reviews__title{
-    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-  }
-  .reviews__wrapper{
-    position: relative;
-    margin-bottom: 40px;
   }
   .reviews__slaider-btns{
     display: flex;
@@ -267,7 +231,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    padding-left: 42% ;
+    padding-left: 44% ;
     transition: 0.5s;
   }
 
@@ -281,16 +245,9 @@
   .reviews__mes-cards{    
     overflow: hidden;
   }
-  .wrapper__cards-rev{
-    display: flex;
-    transition: all ease 1s;
-  }
 }
 
-
-
 @media screen and (max-width:320px){
-
 
 .reviews__slaider-btns{
   padding-left: 35% ;
@@ -299,4 +256,4 @@
 
 
 }
-
+ 

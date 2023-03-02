@@ -19,7 +19,6 @@
     padding-top: 62px;
     padding-bottom: 48px;
     text-align: center;
-    font-family: 'Raleway' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -29,7 +28,6 @@
 
 .contact__title h5{
     margin-top: 50px;
-    font-family: 'Raleway' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -142,7 +140,6 @@
     padding-top: 46px;
     padding-bottom: 45px;
     text-align: center;
-    font-family: 'Raleway' , sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -151,7 +148,6 @@
 }
 .contact__title h5{
     margin-top: 33px;
-    font-family: 'Raleway' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

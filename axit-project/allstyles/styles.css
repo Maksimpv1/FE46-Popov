@@ -1,3 +1,4 @@
+@import url("./reset.css");
 @import url("./style-tabs.css");
 @import url("./style-about.css");
 @import url("./style-pricing.css");
@@ -7,4 +8,20 @@
 @import url("./style-reviews.css");
 @import url("./style-banner-social.css");
 @import url("./style-header.css");
-@import url("./style-banner.css")
+@import url("./style-banner.css");
+
+@font-face{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url('../fonts/Open\ Sns/OpenSans-VariableFont_wdth,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Raleway' , sans-serif;
+}
