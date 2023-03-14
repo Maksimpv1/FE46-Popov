@@ -1,14 +1,3 @@
-@font-face{
-
-  font-family: 'Open Sans';
-  
-  src: url('../fonts/Open\ Sns/OpenSans-VariableFont_wdth,wght.ttf');
-  font-weight: normal;
-  
-  font-style: normal;
-  
-  }
-
 .banner__social{
   width: 100%;
   background-color: #F8EFEF;
@@ -45,7 +34,6 @@
 }
 
 .social__discription>h5{
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -130,7 +118,6 @@ svg path {
 }
 
 .social__discription>h5{
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -203,7 +190,6 @@ svg path {
 }
 
 .social__discription>h5{
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -280,7 +266,6 @@ svg path {
 }
 
 .social__discription>h5{
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

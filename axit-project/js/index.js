@@ -32,3 +32,46 @@ function hidAS3(){
     tabTwo.style.display="none";
     tabThree.style.display="block";
 }
+ const cards = document.querySelectorAll('.reviews__mes-cards .wrapper__cards-rev .card__full');
+ const sliderLine = document.querySelector('.reviews__mes-cards .wrapper__cards-rev');
+ 
+ let count = 0;
+ let width;
+
+ function slyder(){
+    if (document.documentElement.clientWidth < 880) {
+    function init(){
+        console.log('resize');
+        width = document.querySelector('.reviews__mes-cards').offsetWidth;
+        sliderLine.style.width = width * cards.length + 'px';
+        cards.forEach(item => {
+            item.style.width = width + 'px';
+        });
+        rollSlider()
+    }
+    init(); 
+
+    document.querySelector('.slider-back-card').addEventListener('click', function (){
+        count++;
+        if (count >= cards.length) {
+            count = 0;}
+        rollSlider()
+    });
+    document.querySelector('.slider-center-card').addEventListener('click', function (){
+        count = 1;
+        rollSlider()
+    });
+    document.querySelector('.slider-next-card').addEventListener('click', function (){
+        count--;
+        if (count < 0) {
+            count = cards.length - 1;
+        }
+        rollSlider()
+    });
+
+    function rollSlider(){
+        sliderLine.style.transform = 'translate(-'+count*width+'px)';
+    }
+}
+}
+slyder();

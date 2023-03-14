@@ -1,25 +1,3 @@
-@font-face{
-
-  font-family: 'Raleway';
-  
-  src: url('../fonts/Raleway-VariableFont_wght.ttf');
-  font-weight: normal;
-  
-  font-style: normal;
-  
-}
-
-  @font-face{
-
-    font-family: 'Open Sans';
-    
-    src: url('../fonts/Open\ Sns/OpenSans-VariableFont_wdth,wght.ttf');
-    font-weight: normal;
-    
-    font-style: normal;
-    
-}
-
 .container-pricing{
     background-color: #F5F5F5;
     max-width: 100%;
@@ -39,16 +17,8 @@
 .pricing-header__title_style{
     margin: 57px auto 57px auto;
     font-size: 36px;
-    font-family: 'Raleway', sans-serif;
     font-weight: normal;
 }
-/* .wrapper-pricing__line{
-    background-color: #EC7979;
-    width: 170px;
-    height: 1px;
-    margin-left: auto;
-    margin-right: auto;
-} */
 .pricing-header__discript{
     display: flex;
     max-width: 1170px;
@@ -59,7 +29,6 @@
     margin: 0 auto;
     font-size: 18px;
     font-weight: normal;
-    font-family: 'Raleway' , sans-serif;
     line-height: 21px;
 }
 .pricing-cards{
@@ -102,7 +71,6 @@
 .pricing-card__order-text{
     color: #FFFFFF;
     margin: 0 auto;
-    font-family: 'Raleway' , sans-serif;
     font-size: 36px;
     line-height: 43px;
     font-weight: 700;
@@ -116,7 +84,6 @@
     align-items: center;
 }
 .pricing-card__discription-text{
-    font-family: 'Raleway' ,sans-serif;
     font-size: 18px;
     line-height: 21px;
     font-style: normal;
@@ -139,7 +106,6 @@
     padding-top: 14px;
     background-color: #FFFFFF;
     border: 1px solid #F5F5F5;
-    font-family: 'Raleway' ,sans-serif;
     font-size: 18px;
     line-height: 21px;
     font-style: normal;
